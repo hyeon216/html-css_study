@@ -3,7 +3,9 @@ h1{
 }
 
 p{
-
+    size:16px;
+    font-family: verdana;
+    font-style:italic;
 }
 
 .sub-header{
@@ -14,5 +16,8 @@ p::first-letter{
     color:#8A2BE2;
 }
 h1::before{
-    content:"Read this: ";
+    content:"Topic: ";
+}
+.middle{
+    text-align:center;
 }
