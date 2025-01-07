@@ -12,7 +12,7 @@ p{
     color:#2980b9;
 }
 p::first-letter{
-    forn-size:32px;
+    font-size:32px;
     color:#2980b9;
 }
 h1::before{
@@ -28,5 +28,5 @@ h1::before{
         linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
         linear-gradient(#eee .1em, transparent .1em);
         background-size: 100% 1.2em;
-        text-indent:10%;
+        padding-left:10%;
 }
