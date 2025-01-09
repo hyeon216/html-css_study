@@ -1,0 +1,29 @@
+body {
+    display: contents;
+    /*머리부분이 몸통과 같이 내려가는거 막아줌*/
+  }
+  
+  .navbar {
+    float: right;
+    /*오른쪽 영역만 차지하게되서 밑영역과 같은 줄에 놓이게됨*/
+    margin: 20px;
+  }
+  
+  .nav-item {
+    text-decoration-line: none;
+    color: black;
+    margin-right: 15px;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+  }
