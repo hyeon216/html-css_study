@@ -26,10 +26,13 @@
 }
 .mother1{
     display:flex;
-    justify-content:flex-end;
+    justify-content:space-between;
 }
-.one_div1{
-    justify-self:flex-start;
+.sub_main{
+    display:flex;
+}
+.one_div{
+    margin-right:5px;
 }
 .mother2{
     display:flex;
