@@ -1,0 +1,13 @@
+.mother{
+    border:1px solid red;
+    display: flex;  /* 포함된 요소들을 세로정렬에서 가로정렬이 됨*/
+    height:100vh; /*내 화면사이즈의 100%를 씀*/
+    flex-direction:column; 
+    justify-content:flex-end; /*flex-direction사용하면 가로가 세로되고, 세로가 가로됨*/
+  } 
+  
+  .childeren{
+    background-color:blueviolet;
+    width:100px;
+    height:100px;
+  }

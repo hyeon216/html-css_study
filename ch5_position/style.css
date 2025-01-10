@@ -1,16 +1,22 @@
 .box{
     width:100px;
     height:100px;
-}
-
-.red{
+  }
+  
+  .red{
     background-color:red;
-}
-
-.yellow{
+  }
+  
+  .yellow{
     background-color:yellow;
-}
-
-.blue{
+  }
+  
+  .blue{
     background-color:blue;
-}
+  }
+  
+  .locate{
+    position:sticky;
+    left:30px;
+    top:30px;
+  }
