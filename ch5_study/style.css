@@ -14,9 +14,12 @@
     background-color:gray;
 }
 .bigbigbox{
-    width:300px;
+    width:400px;
     height: 150px;
     background-color: gray;
+    position:absolute;
+    right:0px;
+    bottom:0px;
 }
 .mother{
     color:white;
@@ -30,4 +33,35 @@
 }
 .mother2{
     display:flex;
+    flex-direction: column;
+}
+.box_center{
+    align-self:center;
+}
+.box_end{
+    align-self:flex-end;
+}
+.mather3{
+    display:flex;
+    justify-content: center;
+}
+.three_box{
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+.four_box{
+    position:relative;
+    left:50px;
+    top:-50px;
+}
+.five_div2{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.five_div3{
+    position:absolute;
+    top:0;
+    right:0;
 }
