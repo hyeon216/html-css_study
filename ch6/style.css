@@ -43,7 +43,7 @@ main{
 }
 .headline_first{
     position: relative;
-    left: -2.5em; /*em:글씨체기준 크기*/
+    left: -2em; /*em:글씨체기준 크기*/
 }
 .sub_headline{
     color: #1ed760;
