@@ -26,6 +26,48 @@ main{
     height:967.99px;
     background-color: rgb(41, 65, 171);
     background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display:flex;
+}
+.main_container{
+    justify-content: center;
+    align-items: center;
+}
+.headline{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    padding-bottom: 40px;
+
+}
+.headline_first{
+    position: relative;
+    left: -2.5em; /*em:글씨체기준 크기*/
+}
+.sub_headline{
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.button_area{
+    text-align:center;
+    
+}
+.button_style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+button_style:hover{
+    transform:scale(1.2)
 }
 footer{
     height:529.99;
