@@ -100,6 +100,7 @@ body {
   padding: 15px 30px;
   font-size: 15px;
   color: #70757a;
+  justify-content: space-between;
 }
 .second-line-second {
   float: right;
