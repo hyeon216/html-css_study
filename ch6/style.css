@@ -1,22 +1,33 @@
 body{
     margin:0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color:white;
 }
-.nav{
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+nav{
     height:80px;
     background-color: black;
     color:white;
     justify-content: space-around;
+    display:flex; /*로고랑 5개의 태그들 가로 정렬*/
+    align-items:center;
 }
-.first_ritem{
+.nav_item{
     padding:28px 17px;
     font-weight: 700;
 }
-.main{
+main{
     height:967.99px;
     background-color: rgb(41, 65, 171);
     background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
 }
-.footer{
+footer{
     height:529.99;
     background-color: black;
 
